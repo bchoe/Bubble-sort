@@ -1,5 +1,4 @@
 let bubbleFunc = function(arr){
-  let storedVar = arr[0];
   let loop = true;
   let passes = 0;
   let swapCounter = 0;

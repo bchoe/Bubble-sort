@@ -14,6 +14,7 @@ describe('bubblesort',() => {
     expect(bubbleFunc([5,1,4,2,6,9,8])).to.deep.equal([1,2,4,5,6,8,9]);
     expect(bubbleFunc([6,7,9,3,5,8,1,2,4,0])).to.deep.equal([0,1,2,3,4,5,6,7,8,9]);
     expect(bubbleFunc([6,7,9,3,5,8,1,2,4,0,-1,-4,-9])).to.deep.equal([-9,-4,-1,0,1,2,3,4,5,6,7,8,9]);
+    expect(bubbleFunc([6,333,7,9,3,5,222,8,1,2,4,0,111])).to.deep.equal([0,1,2,3,4,5,6,7,8,9,111,222,333]);
   });
 
 });
